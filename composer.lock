@@ -1699,21 +1699,21 @@
         },
         {
             "name": "overtrue/laravel-lang",
-            "version": "4.1.1",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/laravel-lang.git",
-                "reference": "8db02bb782ff3f27198740a7a5f47b8934f949ea"
+                "reference": "653189caa6eac682fa5d15482f271489721231c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/laravel-lang/zipball/8db02bb782ff3f27198740a7a5f47b8934f949ea",
-                "reference": "8db02bb782ff3f27198740a7a5f47b8934f949ea",
+                "url": "https://api.github.com/repos/overtrue/laravel-lang/zipball/653189caa6eac682fa5d15482f271489721231c7",
+                "reference": "653189caa6eac682fa5d15482f271489721231c7",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "laravel-lang/lang": "~7.0",
+                "laravel-lang/lang": "^7.0",
                 "symfony/process": "^5.0.0"
             },
             "require-dev": {
@@ -1730,10 +1730,7 @@
             "autoload": {
                 "psr-4": {
                     "Overtrue\\LaravelLang\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1759,7 +1756,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-09-16T03:00:55+00:00"
+            "time": "2020-11-12T01:44:31+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -6500,6 +6497,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
