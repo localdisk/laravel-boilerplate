@@ -15,6 +15,8 @@ $ yarn run watch
 
 - [Laravel Livewire](https://github.com/livewire/livewire)
 - [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+- [Laravel-lang](https://github.com/overtrue/laravel-lang)
+- [Laravel Sail](https://github.com/laravel/sail)
 
 ### JavaScript
 
