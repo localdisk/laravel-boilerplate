@@ -51,8 +51,8 @@ jobs:
         command: dump-autoload
     - name: generate key
       run: php artisan key:generate
-    - name: directory Permissions
-      run: chmod -R 777 storage bootstrap/cache
+#    - name: directory Permissions
+#      run: chmod -R 777 storage bootstrap/cache
     - name: execute psalm
       run: ./vendor/bin/psalm
     - name: Execute tests (Unit and Feature tests) via PHPUnit
