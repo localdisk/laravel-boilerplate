@@ -40,13 +40,12 @@ jobs:
         key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-composer-
-    - name: install Dependencies
+    - name: install Dependencies and dump autoload
       if: steps.cache.outputs.cache-hit != 'true'
       uses: php-actions/composer@v4
       with:
         command: install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-    - name: composer dump autoload
-      run: composer dump-autoload
+        command: dump-autoload
     - name: generate key
       run: php artisan key:generate
     - name: directory Permissions
