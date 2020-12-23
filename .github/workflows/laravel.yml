@@ -45,6 +45,9 @@ jobs:
       uses: php-actions/composer@v4
       with:
         command: install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    - name: Composer dump-autoload
+      uses: php-actions/composer@v4
+      with:
         command: dump-autoload
     - name: generate key
       run: php artisan key:generate
