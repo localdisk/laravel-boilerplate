@@ -1,0 +1,19 @@
+last_used = 1_603_518_628_159
+repository = "git@github.com:localdisk/laravel-boilerplate.git"
+
+[php]
+version = "7.4"
+
+[node]
+version = "12"
+
+[redis]
+version = "6"
+
+[database]
+type = "mysql"
+version = "5.7"
+port = "3306"
+
+[server]
+port = "80"
